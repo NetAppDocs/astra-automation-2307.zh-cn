@@ -756,7 +756,6 @@
   <block id="2d49337d583eac8056d564e348f43744" category="list-text">还原应用程序与克隆操作非常相似。</block>
   <block id="af5cd1844721ca591969375d08152b0e" category="list-text">还原应用程序时，您必须提供备份或快照。</block>
   <block id="b844ee2db8fd78557f753d0c04015c4a" category="summary">Astra Control是一款NetApp软件产品、可为您的Kubernetes应用程序提供数据生命周期管理。根据您的环境、有两种部署模式可供选择。Astra Control Center和Astra Control Service会共享同一个REST API、具体取决于版本。您可以使用REST API和其他相关自动化技术来管理Astra Control部署。</block>
-  <block id="1a0ca7f0a5aea880c24d544b4655d6ed" category="doc">Astra Control Automation 文档</block>
   <block id="a5f871c981a398cb87374a1ff883bcca" category="summary">您可以使用以下脚本列出Astra帐户的应用程序。</block>
   <block id="0dca49fc2e144253162b8cbd94b3b83c" category="admonition">请参见 <block ref="471a805638f43cfd34206d9398385425" category="inline-link-macro-rx"></block> 所需 JSON 输入文件的示例。</block>
   <block id="c30daace746a4b0fbccf1758ed0282eb" category="summary">Python是数据中心自动化的一种流行开发语言。在将 Python 的原生功能与多个通用软件包结合使用之前，您需要准备环境和所需的输入文件。</block>
@@ -1250,4 +1249,5 @@
   <block id="5a31da03b445627c9d11d99efb7cc803" category="cell">23.06.</block>
   <block id="22a15af82a20adf60996d549baa48d24" category="cell">权限资源表示与系统中的操作相关的权限。API提供对权限的只读访问权限。</block>
   <block id="8fe5430b97accfa7b33d3c5887f90718" category="cell">角色资源表示系统中可用的角色。API提供对角色的只读访问权限。</block>
+  <block id="319cbcbe823e54bc4431c0aeca14c9d6" category="sidebar">Astra Control Automation 23.07文档</block>
 </blocks>
