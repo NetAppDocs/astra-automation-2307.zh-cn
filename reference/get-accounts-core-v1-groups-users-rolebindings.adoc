@@ -3,6 +3,7 @@ sidebar: sidebar
 api: true 
 explorer: true 
 permalink: reference/get-accounts-core-v1-groups-users-rolebindings.html 
+keywords: role bindings,resource collection,user role,group resource,account resource 
 summary: 列出组中用户的角色绑定 
 ---
 = 列出组中用户的角色绑定
@@ -10,7 +11,20 @@ summary: 列出组中用户的角色绑定
 :imagesdir: ../media/
 
 
+[role="lead"]
+检索组内用户的角色绑定。使用此选项可查看分配给用户的角色并有效管理访问权限。
+
+
+
+[[http-method-and-endpoint]]
+== HTTP 方法和端点
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/accounts/{account_id}/core/v1/groups/{group_id}/users/{user_id}/roleBindings`#
+
+
+
+[[usage-notes]]
+== 使用说明
 
 返回集合中所有匹配资源的 JSON 数组。如果在请求中指定了单个字段，则项目 JSON 数组将包含按指定顺序为每个匹配资源请求的字段。
 
@@ -515,7 +529,7 @@ roleBinding_1.1_get_response_body
 
 * 
 +
-= 允许访问任何云中任何集群中标记为 "dev" 的所有命名空间及其下的所有内容："roleConstraints"：[ "namespaces:kubernetesLabels='http://dev.example.com/appname=dev["dev.example.com/appname=dev'.*"]" ]
+= 允许访问任何云中任何集群中标记为 "dev" 的所有命名空间及其下的所有内容："roleConstraints": [ "namespaces:kubernetesLabels='dev.example.com/appname=dev'.*"]
 
 * 
 +
